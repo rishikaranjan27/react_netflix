@@ -1,0 +1,44 @@
+
+.row-main {
+    background-color: black;
+    padding-top: 50px;
+
+}
+
+.row-main h4 {
+    text-align: left;
+    color: white;
+    padding-left: 60px;
+
+
+}
+
+.row-images {
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding-left: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+
+
+}
+
+.row-images::-webkit-scrollbar {
+    display: none;
+}
+
+.row-image {
+    object-fit: contain;
+    width: 100%;
+    max-height: 100px;
+    margin-right: 3px;
+    border-radius: 5px;
+    transition: transform 450ms;
+
+}
+
+.row-image:hover {
+    transform: scale(1.08);
+}
